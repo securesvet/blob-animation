@@ -17,7 +17,7 @@ section {
 
 .blob {
     position: relative;
-    width: 300px;
+    width: 400px;
     aspect-ratio: 1 / 1;
     background-repeat: no-repeat;
 }
@@ -27,4 +27,8 @@ section {
     height: 200px;
     width: auto;
     object-fit: scale-down;
+}
+
+.avatar:hover {
+    cursor: pointer;
 }
