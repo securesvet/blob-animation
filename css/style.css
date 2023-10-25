@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #432af4;
+}
+
+.blob {
+    position: relative;
+    width: 300px;
+    aspect-ratio: 1 / 1;
+    background-repeat: no-repeat;
+}
+
+.avatar {
+    position: absolute;
+    height: 200px;
+    width: auto;
+    object-fit: scale-down;
+}
