@@ -12,6 +12,10 @@ h1 {
     opacity: 1;
 }
 
+.overlay {
+    position: absolute;
+}
+
 .grid {
     display: grid;
     gap: 1rem;
