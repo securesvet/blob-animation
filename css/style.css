@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #ff1b36;
+    background: #ffffff;
     /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);  */
 }
 
@@ -32,7 +32,7 @@ body {
     position: fixed;
     width: 100vw;
     height: 75px;
-    background: hsla(0, 100%, 50%, 0.2);
+    background: hsla(0, 0%, 0%, 0.2);
     backdrop-filter: blur(1rem);
     z-index: 0;
     overflow: hidden;
